@@ -1,0 +1,2 @@
+# DWQRuntime_5_DictToModel
+利用Runtime字典转模型，一级转化的简单使用
