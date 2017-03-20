@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BF9D171E7D436700BCA418 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF9D161E7D436700BCA418 /* main.m */; };
+		04BF9D1A1E7D436700BCA418 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF9D191E7D436700BCA418 /* AppDelegate.m */; };
+		04BF9D1D1E7D436700BCA418 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF9D1C1E7D436700BCA418 /* ViewController.m */; };
+		04BF9D201E7D436700BCA418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BF9D1E1E7D436700BCA418 /* Main.storyboard */; };
+		04BF9D221E7D436700BCA418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BF9D211E7D436700BCA418 /* Assets.xcassets */; };
+		04BF9D251E7D436700BCA418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BF9D231E7D436700BCA418 /* LaunchScreen.storyboard */; };
+		04BF9D301E7D436700BCA418 /* DWQRuntime_5____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF9D2F1E7D436700BCA418 /* DWQRuntime_5____________Tests.m */; };
+		04BF9D3B1E7D436700BCA418 /* DWQRuntime_5____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF9D3A1E7D436700BCA418 /* DWQRuntime_5____________UITests.m */; };
+		04BF9D491E7D43C500BCA418 /* weibo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04BF9D481E7D43C500BCA418 /* weibo.plist */; };
+		04BF9D4C1E7D43F800BCA418 /* weibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF9D4B1E7D43F800BCA418 /* weibo.m */; };
+		04BF9D501E7D44C200BCA418 /* NSObject+autoGenerateProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF9D4F1E7D44C200BCA418 /* NSObject+autoGenerateProperty.m */; };
+		04BF9D541E7D4B2700BCA418 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF9D531E7D4B2700BCA418 /* NSObject+Model.m */; };
+		04BF9D561E7D500C00BCA418 /* 杜文全背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BF9D551E7D500C00BCA418 /* 杜文全背景.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BF9D2C1E7D436700BCA418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BF9D0A1E7D436700BCA418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BF9D111E7D436700BCA418;
+			remoteInfo = "DWQRuntime_5_字典转模型（一级转化）";
+		};
+		04BF9D371E7D436700BCA418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BF9D0A1E7D436700BCA418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BF9D111E7D436700BCA418;
+			remoteInfo = "DWQRuntime_5_字典转模型（一级转化）";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BF9D121E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DWQRuntime_5_字典转模型（一级转化）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BF9D161E7D436700BCA418 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BF9D181E7D436700BCA418 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BF9D191E7D436700BCA418 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BF9D1B1E7D436700BCA418 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04BF9D1C1E7D436700BCA418 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04BF9D1F1E7D436700BCA418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04BF9D211E7D436700BCA418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BF9D241E7D436700BCA418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04BF9D261E7D436700BCA418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BF9D2B1E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化）Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DWQRuntime_5_字典转模型（一级转化）Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BF9D2F1E7D436700BCA418 /* DWQRuntime_5____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DWQRuntime_5____________Tests.m"; sourceTree = "<group>"; };
+		04BF9D311E7D436700BCA418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BF9D361E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化）UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DWQRuntime_5_字典转模型（一级转化）UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BF9D3A1E7D436700BCA418 /* DWQRuntime_5____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DWQRuntime_5____________UITests.m"; sourceTree = "<group>"; };
+		04BF9D3C1E7D436700BCA418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BF9D481E7D43C500BCA418 /* weibo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = weibo.plist; sourceTree = "<group>"; };
+		04BF9D4A1E7D43F800BCA418 /* weibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weibo.h; sourceTree = "<group>"; };
+		04BF9D4B1E7D43F800BCA418 /* weibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weibo.m; sourceTree = "<group>"; };
+		04BF9D4E1E7D44C200BCA418 /* NSObject+autoGenerateProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+autoGenerateProperty.h"; sourceTree = "<group>"; };
+		04BF9D4F1E7D44C200BCA418 /* NSObject+autoGenerateProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+autoGenerateProperty.m"; sourceTree = "<group>"; };
+		04BF9D521E7D4B2700BCA418 /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		04BF9D531E7D4B2700BCA418 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		04BF9D551E7D500C00BCA418 /* 杜文全背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "杜文全背景.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BF9D0F1E7D436700BCA418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF9D281E7D436700BCA418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF9D331E7D436700BCA418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BF9D091E7D436700BCA418 = {
+			isa = PBXGroup;
+			children = (
+				04BF9D141E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化） */,
+				04BF9D2E1E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化）Tests */,
+				04BF9D391E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化）UITests */,
+				04BF9D131E7D436700BCA418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04BF9D131E7D436700BCA418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BF9D121E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化）.app */,
+				04BF9D2B1E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化）Tests.xctest */,
+				04BF9D361E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化）UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BF9D141E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化） */ = {
+			isa = PBXGroup;
+			children = (
+				04BF9D511E7D4B2700BCA418 /* Runtime字典转模型 */,
+				04BF9D4D1E7D44C200BCA418 /* 字典自动生成属性 */,
+				04BF9D481E7D43C500BCA418 /* weibo.plist */,
+				04BF9D181E7D436700BCA418 /* AppDelegate.h */,
+				04BF9D191E7D436700BCA418 /* AppDelegate.m */,
+				04BF9D1B1E7D436700BCA418 /* ViewController.h */,
+				04BF9D1C1E7D436700BCA418 /* ViewController.m */,
+				04BF9D4A1E7D43F800BCA418 /* weibo.h */,
+				04BF9D4B1E7D43F800BCA418 /* weibo.m */,
+				04BF9D551E7D500C00BCA418 /* 杜文全背景.png */,
+				04BF9D1E1E7D436700BCA418 /* Main.storyboard */,
+				04BF9D211E7D436700BCA418 /* Assets.xcassets */,
+				04BF9D231E7D436700BCA418 /* LaunchScreen.storyboard */,
+				04BF9D261E7D436700BCA418 /* Info.plist */,
+				04BF9D151E7D436700BCA418 /* Supporting Files */,
+			);
+			path = "DWQRuntime_5_字典转模型（一级转化）";
+			sourceTree = "<group>";
+		};
+		04BF9D151E7D436700BCA418 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BF9D161E7D436700BCA418 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04BF9D2E1E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化）Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04BF9D2F1E7D436700BCA418 /* DWQRuntime_5____________Tests.m */,
+				04BF9D311E7D436700BCA418 /* Info.plist */,
+			);
+			path = "DWQRuntime_5_字典转模型（一级转化）Tests";
+			sourceTree = "<group>";
+		};
+		04BF9D391E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化）UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04BF9D3A1E7D436700BCA418 /* DWQRuntime_5____________UITests.m */,
+				04BF9D3C1E7D436700BCA418 /* Info.plist */,
+			);
+			path = "DWQRuntime_5_字典转模型（一级转化）UITests";
+			sourceTree = "<group>";
+		};
+		04BF9D4D1E7D44C200BCA418 /* 字典自动生成属性 */ = {
+			isa = PBXGroup;
+			children = (
+				04BF9D4E1E7D44C200BCA418 /* NSObject+autoGenerateProperty.h */,
+				04BF9D4F1E7D44C200BCA418 /* NSObject+autoGenerateProperty.m */,
+			);
+			path = "字典自动生成属性";
+			sourceTree = "<group>";
+		};
+		04BF9D511E7D4B2700BCA418 /* Runtime字典转模型 */ = {
+			isa = PBXGroup;
+			children = (
+				04BF9D521E7D4B2700BCA418 /* NSObject+Model.h */,
+				04BF9D531E7D4B2700BCA418 /* NSObject+Model.m */,
+			);
+			path = "Runtime字典转模型";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BF9D111E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BF9D3F1E7D436700BCA418 /* Build configuration list for PBXNativeTarget "DWQRuntime_5_字典转模型（一级转化）" */;
+			buildPhases = (
+				04BF9D0E1E7D436700BCA418 /* Sources */,
+				04BF9D0F1E7D436700BCA418 /* Frameworks */,
+				04BF9D101E7D436700BCA418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DWQRuntime_5_字典转模型（一级转化）";
+			productName = "DWQRuntime_5_字典转模型（一级转化）";
+			productReference = 04BF9D121E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化）.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BF9D2A1E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化）Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BF9D421E7D436700BCA418 /* Build configuration list for PBXNativeTarget "DWQRuntime_5_字典转模型（一级转化）Tests" */;
+			buildPhases = (
+				04BF9D271E7D436700BCA418 /* Sources */,
+				04BF9D281E7D436700BCA418 /* Frameworks */,
+				04BF9D291E7D436700BCA418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BF9D2D1E7D436700BCA418 /* PBXTargetDependency */,
+			);
+			name = "DWQRuntime_5_字典转模型（一级转化）Tests";
+			productName = "DWQRuntime_5_字典转模型（一级转化）Tests";
+			productReference = 04BF9D2B1E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化）Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04BF9D351E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化）UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BF9D451E7D436700BCA418 /* Build configuration list for PBXNativeTarget "DWQRuntime_5_字典转模型（一级转化）UITests" */;
+			buildPhases = (
+				04BF9D321E7D436700BCA418 /* Sources */,
+				04BF9D331E7D436700BCA418 /* Frameworks */,
+				04BF9D341E7D436700BCA418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BF9D381E7D436700BCA418 /* PBXTargetDependency */,
+			);
+			name = "DWQRuntime_5_字典转模型（一级转化）UITests";
+			productName = "DWQRuntime_5_字典转模型（一级转化）UITests";
+			productReference = 04BF9D361E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化）UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BF9D0A1E7D436700BCA418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.iOSDeveloper.duwenquan;
+				TargetAttributes = {
+					04BF9D111E7D436700BCA418 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N8RQBX5PQW;
+						ProvisioningStyle = Automatic;
+					};
+					04BF9D2A1E7D436700BCA418 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N8RQBX5PQW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04BF9D111E7D436700BCA418;
+					};
+					04BF9D351E7D436700BCA418 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N8RQBX5PQW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04BF9D111E7D436700BCA418;
+					};
+				};
+			};
+			buildConfigurationList = 04BF9D0D1E7D436700BCA418 /* Build configuration list for PBXProject "DWQRuntime_5_字典转模型（一级转化）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BF9D091E7D436700BCA418;
+			productRefGroup = 04BF9D131E7D436700BCA418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BF9D111E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化） */,
+				04BF9D2A1E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化）Tests */,
+				04BF9D351E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化）UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BF9D101E7D436700BCA418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF9D251E7D436700BCA418 /* LaunchScreen.storyboard in Resources */,
+				04BF9D221E7D436700BCA418 /* Assets.xcassets in Resources */,
+				04BF9D561E7D500C00BCA418 /* 杜文全背景.png in Resources */,
+				04BF9D201E7D436700BCA418 /* Main.storyboard in Resources */,
+				04BF9D491E7D43C500BCA418 /* weibo.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF9D291E7D436700BCA418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF9D341E7D436700BCA418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BF9D0E1E7D436700BCA418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF9D4C1E7D43F800BCA418 /* weibo.m in Sources */,
+				04BF9D1D1E7D436700BCA418 /* ViewController.m in Sources */,
+				04BF9D1A1E7D436700BCA418 /* AppDelegate.m in Sources */,
+				04BF9D541E7D4B2700BCA418 /* NSObject+Model.m in Sources */,
+				04BF9D501E7D44C200BCA418 /* NSObject+autoGenerateProperty.m in Sources */,
+				04BF9D171E7D436700BCA418 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF9D271E7D436700BCA418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF9D301E7D436700BCA418 /* DWQRuntime_5____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF9D321E7D436700BCA418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF9D3B1E7D436700BCA418 /* DWQRuntime_5____________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BF9D2D1E7D436700BCA418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BF9D111E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化） */;
+			targetProxy = 04BF9D2C1E7D436700BCA418 /* PBXContainerItemProxy */;
+		};
+		04BF9D381E7D436700BCA418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BF9D111E7D436700BCA418 /* DWQRuntime_5_字典转模型（一级转化） */;
+			targetProxy = 04BF9D371E7D436700BCA418 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04BF9D1E1E7D436700BCA418 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BF9D1F1E7D436700BCA418 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04BF9D231E7D436700BCA418 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BF9D241E7D436700BCA418 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BF9D3D1E7D436700BCA418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04BF9D3E1E7D436700BCA418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BF9D401E7D436700BCA418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N8RQBX5PQW;
+				INFOPLIST_FILE = "DWQRuntime_5_字典转模型（一级转化）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DWQ.DWQRuntime-5------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04BF9D411E7D436700BCA418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N8RQBX5PQW;
+				INFOPLIST_FILE = "DWQRuntime_5_字典转模型（一级转化）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DWQ.DWQRuntime-5------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04BF9D431E7D436700BCA418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N8RQBX5PQW;
+				INFOPLIST_FILE = "DWQRuntime_5_字典转模型（一级转化）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DWQ.DWQRuntime-5------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWQRuntime_5_字典转模型（一级转化）.app/DWQRuntime_5_字典转模型（一级转化）";
+			};
+			name = Debug;
+		};
+		04BF9D441E7D436700BCA418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N8RQBX5PQW;
+				INFOPLIST_FILE = "DWQRuntime_5_字典转模型（一级转化）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DWQ.DWQRuntime-5------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWQRuntime_5_字典转模型（一级转化）.app/DWQRuntime_5_字典转模型（一级转化）";
+			};
+			name = Release;
+		};
+		04BF9D461E7D436700BCA418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N8RQBX5PQW;
+				INFOPLIST_FILE = "DWQRuntime_5_字典转模型（一级转化）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DWQ.DWQRuntime-5------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DWQRuntime_5_字典转模型（一级转化）";
+			};
+			name = Debug;
+		};
+		04BF9D471E7D436700BCA418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N8RQBX5PQW;
+				INFOPLIST_FILE = "DWQRuntime_5_字典转模型（一级转化）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DWQ.DWQRuntime-5------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DWQRuntime_5_字典转模型（一级转化）";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BF9D0D1E7D436700BCA418 /* Build configuration list for PBXProject "DWQRuntime_5_字典转模型（一级转化）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF9D3D1E7D436700BCA418 /* Debug */,
+				04BF9D3E1E7D436700BCA418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BF9D3F1E7D436700BCA418 /* Build configuration list for PBXNativeTarget "DWQRuntime_5_字典转模型（一级转化）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF9D401E7D436700BCA418 /* Debug */,
+				04BF9D411E7D436700BCA418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BF9D421E7D436700BCA418 /* Build configuration list for PBXNativeTarget "DWQRuntime_5_字典转模型（一级转化）Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF9D431E7D436700BCA418 /* Debug */,
+				04BF9D441E7D436700BCA418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BF9D451E7D436700BCA418 /* Build configuration list for PBXNativeTarget "DWQRuntime_5_字典转模型（一级转化）UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF9D461E7D436700BCA418 /* Debug */,
+				04BF9D471E7D436700BCA418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BF9D0A1E7D436700BCA418 /* Project object */;
+}
